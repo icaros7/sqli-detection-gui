@@ -65,7 +65,6 @@ public partial class reportForm : Form {
         lbl_Link.Text          = _url;
         lbl_Count.Text         = _scan.ToString();
         lbl_CounfOfFind.Text   = _page.ToString();
-        lbl_CounfOfFind.Text   = res.lbl_CountOfScan + @":";
         lbl_CountOfDetect.Text = res.lbl_CountOfDetect + @":";
         lbl_Target.Text        = res.lbl_Target + @":";
         lbl_Status.Text        = res.lbl_Status + @":";
